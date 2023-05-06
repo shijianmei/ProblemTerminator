@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ProblemTerminator_Example' do
+  pod 'ProblemTerminator', :path => '../'
+
+  target 'ProblemTerminator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
