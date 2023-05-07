@@ -1,0 +1,27 @@
+PODS:
+  - MangoFix (1.5.2):
+    - symdl
+  - ProblemTerminator (1.0.0):
+    - MangoFix (= 1.5.2)
+  - symdl (0.10.0)
+
+DEPENDENCIES:
+  - ProblemTerminator (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MangoFix
+    - symdl
+
+EXTERNAL SOURCES:
+  ProblemTerminator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MangoFix: 8dbc1ff99d215152aeb29673f4e0f4444fa5024d
+  ProblemTerminator: a5c061cc44d0729803ef2333a2ea2e4e3acf1009
+  symdl: 83e9706ac7db424dfc4c00337a2a7a9d5a1dd00c
+
+PODFILE CHECKSUM: 2bcc34f2295c298a90e627359082813ab1972f98
+
+COCOAPODS: 1.12.1

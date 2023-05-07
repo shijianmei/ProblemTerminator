@@ -1,0 +1,6 @@
+framework module ProblemTerminator {
+  umbrella header "ProblemTerminator-umbrella.h"
+
+  export *
+  module * { export * }
+}

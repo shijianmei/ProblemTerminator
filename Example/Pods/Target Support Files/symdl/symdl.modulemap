@@ -1,0 +1,6 @@
+framework module symdl {
+  umbrella header "symdl-umbrella.h"
+
+  export *
+  module * { export * }
+}

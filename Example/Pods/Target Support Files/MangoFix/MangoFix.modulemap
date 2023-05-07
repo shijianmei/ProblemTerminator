@@ -1,0 +1,6 @@
+framework module MangoFix {
+  umbrella header "MangoFix-umbrella.h"
+
+  export *
+  module * { export * }
+}
