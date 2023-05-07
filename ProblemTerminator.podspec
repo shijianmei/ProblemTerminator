@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProblemTerminator'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of ProblemTerminator.'
 
 # This description is used to generate tags and improve search results.
@@ -24,19 +24,18 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/jianmei/ProblemTerminator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jianmei' => 'jianmei.shi@ai-ways.com' }
-  s.source           = { :git => 'https://github.com/jianmei/ProblemTerminator.git', :tag => s.version.to_s }
+  s.author           = { 'jianmei' => 'shijianmei0@sina.com' }
+  s.source           = { :git => 'https://github.com/shijianmei/ProblemTerminator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'ProblemTerminator/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ProblemTerminator' => ['ProblemTerminator/Assets/*.png']
-  # }
+  s.resources = ["ProblemTerminator/**/*.{xcassets,mg,storyboard,gif,png,jpg,mp3,MP4,mp4,zip,plist,acc,dat,bin,dms,html,js,a,webp,mov,json}"]
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'MangoFix', '1.5.2'
 end

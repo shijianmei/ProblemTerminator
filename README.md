@@ -19,10 +19,16 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ProblemTerminator'
 ```
-
-## Author
-
-jianmei, jianmei.shi@ai-ways.com
+## Use
+```
+/// 配置
+        [JMHotFixManage shareInstance].kAES128Key = @"";
+        [JMHotFixManage shareInstance].kAES128Iv = @"";
+        [JMHotFixManage shareInstance].kHotUrl = @"";
+        [JMHotFixManage shareInstance].kExitHotUrl = @"";
+/// 加载包
+        [[JMHotFixManage shareInstance] loadHotFix];
+```
 
 ## License
 
